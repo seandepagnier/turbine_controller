@@ -1,0 +1,1030 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5FE50E5C
+P 4200 2150
+AR Path="/5FE50E5C" Ref="Q?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E5C" Ref="Q?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E5C" Ref="Q?"  Part="1" 
+AR Path="/5FE7758E/5FE50E5C" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4100 2300 50  0000 L CNN
+F 1 "nfet" H 4100 2000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4400 2250 50  0001 C CNN
+F 3 "nce4060, IPP041N04N G" H 4200 2150 50  0001 C CNN
+F 4 "C150550" H 4200 2150 50  0001 C CNN "LCSC"
+	1    4200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2350 4300 2550
+Wire Wire Line
+	3700 2550 4300 2550
+$Comp
+L power:VCC #PWR?
+U 1 1 5FE50E64
+P 4300 1550
+AR Path="/5FE50E64" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E64" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E64" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50E64" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4300 1400 50  0001 C CNN
+F 1 "VCC" H 4150 1650 50  0000 C CNN
+F 2 "" H 4300 1550 50  0001 C CNN
+F 3 "" H 4300 1550 50  0001 C CNN
+	1    4300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5FE50E6A
+P 4200 3250
+AR Path="/5FE50E6A" Ref="Q?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E6A" Ref="Q?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E6A" Ref="Q?"  Part="1" 
+AR Path="/5FE7758E/5FE50E6A" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4100 3400 50  0000 L CNN
+F 1 "nfet" H 4100 3100 50  0000 L CNN
+F 2 "" H 4400 3350 50  0001 C CNN
+F 3 "~" H 4200 3250 50  0001 C CNN
+	1    4200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FE50E71
+P 2700 1850
+AR Path="/5FE50E71" Ref="C?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E71" Ref="C?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E71" Ref="C?"  Part="1" 
+AR Path="/5FE7758E/5FE50E71" Ref="C?"  Part="1" 
+F 0 "C?" H 2815 1896 50  0000 L CNN
+F 1 "10uF" H 2815 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2738 1700 50  0001 C CNN
+F 3 "~" H 2700 1850 50  0001 C CNN
+F 4 "C13585" H 2700 1850 50  0001 C CNN "LCSC"
+	1    2700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5FE50E78
+P 2850 1550
+AR Path="/5FE50E78" Ref="D?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E78" Ref="D?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E78" Ref="D?"  Part="1" 
+AR Path="/5FE7758E/5FE50E78" Ref="D?"  Part="1" 
+F 0 "D?" H 2850 1674 50  0000 C CNN
+F 1 "D" H 2850 1675 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2850 1550 50  0001 C CNN
+F 3 "~" H 2850 1550 50  0001 C CNN
+F 4 "C2128" H 2850 1550 50  0001 C CNN "LCSC"
+	1    2850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1700 2700 1650
+Wire Wire Line
+	2700 1550 2700 1650
+Connection ~ 2700 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5FE50E81
+P 3100 3650
+AR Path="/5FE50E81" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E81" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E81" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50E81" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 3400 50  0001 C CNN
+F 1 "GND" H 3105 3477 50  0001 C CNN
+F 2 "" H 3100 3650 50  0001 C CNN
+F 3 "" H 3100 3650 50  0001 C CNN
+	1    3100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50E88
+P 2550 3450
+AR Path="/5FE50E88" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E88" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E88" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50E88" Ref="R?"  Part="1" 
+F 0 "R?" V 2450 3450 50  0000 C CNN
+F 1 "47k" V 2550 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2480 3450 50  0001 C CNN
+F 3 "~" H 2550 3450 50  0001 C CNN
+F 4 "C17713" V 2550 3450 50  0001 C CNN "LCSC"
+	1    2550 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 3450 2800 3450
+$Comp
+L Device:R R?
+U 1 1 5FE50E90
+P 3150 1550
+AR Path="/5FE50E90" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E90" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E90" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50E90" Ref="R?"  Part="1" 
+F 0 "R?" V 3050 1550 50  0000 C CNN
+F 1 "5.1" V 3150 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3080 1550 50  0001 C CNN
+F 3 "~" H 3150 1550 50  0001 C CNN
+F 4 "17724" V 3150 1550 50  0001 C CNN "LCSC"
+	1    3150 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FE50E9A
+P 4500 2150
+AR Path="/5FE50E9A" Ref="D?"  Part="1" 
+AR Path="/5FE41D7E/5FE50E9A" Ref="D?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50E9A" Ref="D?"  Part="1" 
+AR Path="/5FE7758E/5FE50E9A" Ref="D?"  Part="1" 
+F 0 "D?" V 4600 2200 50  0000 L CNN
+F 1 "D_Schottky" V 4545 2229 50  0001 L CNN
+F 2 "footprints:DO-214AB" H 4500 2150 50  0001 C CNN
+F 3 "~" H 4500 2150 50  0001 C CNN
+F 4 "C35722" V 4500 2150 50  0001 C CNN "LCSC"
+	1    4500 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FE50EA0
+P 3100 2950
+AR Path="/5FE50EA0" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EA0" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EA0" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50EA0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 2800 50  0001 C CNN
+F 1 "VCC" H 2950 3050 50  0000 C CNN
+F 2 "" H 3100 2950 50  0001 C CNN
+F 3 "" H 3100 2950 50  0001 C CNN
+	1    3100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE50EA6
+P 3700 3650
+AR Path="/5FE50EA6" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EA6" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EA6" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50EA6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3700 3400 50  0001 C CNN
+F 1 "GND" H 3705 3477 50  0001 C CNN
+F 2 "" H 3700 3650 50  0001 C CNN
+F 3 "" H 3700 3650 50  0001 C CNN
+	1    3700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50EAD
+P 3250 3250
+AR Path="/5FE50EAD" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EAD" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EAD" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50EAD" Ref="R?"  Part="1" 
+F 0 "R?" V 3150 3250 50  0000 C CNN
+F 1 "100" V 3250 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3180 3250 50  0001 C CNN
+F 3 "~" H 3250 3250 50  0001 C CNN
+F 4 "17408" V 3250 3250 50  0001 C CNN "LCSC"
+	1    3250 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 2950 3400 3250
+Connection ~ 3400 3250
+Wire Wire Line
+	3400 3250 3400 3450
+Wire Wire Line
+	2700 1650 3100 1650
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5FE50EB8
+P 3600 1850
+AR Path="/5FE50EB8" Ref="Q?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EB8" Ref="Q?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EB8" Ref="Q?"  Part="1" 
+AR Path="/5FE7758E/5FE50EB8" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3500 1750 50  0000 L CNN
+F 1 "pfet" H 3800 1800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 1950 50  0001 C CNN
+F 3 "~" H 3600 1850 50  0001 C CNN
+F 4 "C8492" H 3600 1850 50  0001 C CNN "LCSC"
+	1    3600 1850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5FE50EBF
+P 3600 2350
+AR Path="/5FE50EBF" Ref="Q?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EBF" Ref="Q?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EBF" Ref="Q?"  Part="1" 
+AR Path="/5FE7758E/5FE50EBF" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3500 2500 50  0000 L CNN
+F 1 "nfet" H 3500 2200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 2450 50  0001 C CNN
+F 3 "~" H 3600 2350 50  0001 C CNN
+F 4 "C8545" H 3600 2350 50  0001 C CNN "LCSC"
+	1    3600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50EC6
+P 3100 1850
+AR Path="/5FE50EC6" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EC6" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EC6" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50EC6" Ref="R?"  Part="1" 
+F 0 "R?" H 2950 2000 50  0000 L CNN
+F 1 "10k" V 3100 1800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3030 1850 50  0001 C CNN
+F 3 "~" H 3100 1850 50  0001 C CNN
+F 4 "C17414" H 3100 1850 50  0001 C CNN "LCSC"
+	1    3100 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1550 4300 1550
+Wire Wire Line
+	3100 1700 3100 1650
+Connection ~ 3100 1650
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 5FE50ED1
+P 3000 2500
+AR Path="/5FE50ED1" Ref="Q?"  Part="1" 
+AR Path="/5FE41D7E/5FE50ED1" Ref="Q?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50ED1" Ref="Q?"  Part="1" 
+AR Path="/5FE7758E/5FE50ED1" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2950 2650 50  0000 L CNN
+F 1 "npn" H 3200 2550 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3200 2600 50  0001 C CNN
+F 3 "~" H 3000 2500 50  0001 C CNN
+F 4 "20526" H 3000 2500 50  0001 C CNN "LCSC"
+	1    3000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2550 2700 2000
+Wire Wire Line
+	2700 2550 3700 2550
+Connection ~ 3700 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5FE50EDA
+P 3100 2700
+AR Path="/5FE50EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EDA" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50EDA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 2450 50  0001 C CNN
+F 1 "GND" H 3105 2527 50  0001 C CNN
+F 2 "" H 3100 2700 50  0001 C CNN
+F 3 "" H 3100 2700 50  0001 C CNN
+	1    3100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2500 2800 2500
+$Comp
+L Device:R R?
+U 1 1 5FE50EE2
+P 3100 2150
+AR Path="/5FE50EE2" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EE2" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EE2" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50EE2" Ref="R?"  Part="1" 
+F 0 "R?" H 2950 2300 50  0000 L CNN
+F 1 "10k" V 3100 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3030 2150 50  0001 C CNN
+F 3 "~" H 3100 2150 50  0001 C CNN
+F 4 "C17414" H 3100 2150 50  0001 C CNN "LCSC"
+	1    3100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2000 3400 2350
+Wire Wire Line
+	3400 2000 3100 2000
+Connection ~ 3100 2000
+Wire Wire Line
+	3400 1850 3400 2000
+Connection ~ 3400 2000
+$Comp
+L Device:R R?
+U 1 1 5FE50EEE
+P 3850 2050
+AR Path="/5FE50EEE" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EEE" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EEE" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50EEE" Ref="R?"  Part="1" 
+F 0 "R?" V 3750 2050 50  0000 C CNN
+F 1 "47" V 3850 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3780 2050 50  0001 C CNN
+F 3 "~" H 3850 2050 50  0001 C CNN
+F 4 "C17714" V 3850 2050 50  0001 C CNN "LCSC"
+	1    3850 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50EF5
+P 3850 2150
+AR Path="/5FE50EF5" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EF5" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EF5" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50EF5" Ref="R?"  Part="1" 
+F 0 "R?" V 3950 2200 50  0000 C CNN
+F 1 "47" V 3850 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3780 2150 50  0001 C CNN
+F 3 "~" H 3850 2150 50  0001 C CNN
+F 4 "C17714" V 3850 2150 50  0001 C CNN "LCSC"
+	1    3850 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2050 4000 2150
+Connection ~ 4000 2150
+$Comp
+L Device:R R?
+U 1 1 5FE50EFE
+P 3100 3100
+AR Path="/5FE50EFE" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50EFE" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50EFE" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50EFE" Ref="R?"  Part="1" 
+F 0 "R?" H 2950 3150 50  0000 L CNN
+F 1 "10k" V 3100 3050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3030 3100 50  0001 C CNN
+F 3 "~" H 3100 3100 50  0001 C CNN
+F 4 "C17414" H 3100 3100 50  0001 C CNN "LCSC"
+	1    3100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 5FE50F05
+P 3000 3450
+AR Path="/5FE50F05" Ref="Q?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F05" Ref="Q?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F05" Ref="Q?"  Part="1" 
+AR Path="/5FE7758E/5FE50F05" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3190 3496 50  0000 L CNN
+F 1 "npn" H 3190 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3200 3550 50  0001 C CNN
+F 3 "~" H 3000 3450 50  0001 C CNN
+F 4 "20526" H 3000 3450 50  0001 C CNN "LCSC"
+	1    3000 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 3250
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5FE50F0D
+P 3600 3450
+AR Path="/5FE50F0D" Ref="Q?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F0D" Ref="Q?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F0D" Ref="Q?"  Part="1" 
+AR Path="/5FE7758E/5FE50F0D" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3500 3600 50  0000 L CNN
+F 1 "nfet" H 3500 3300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 3550 50  0001 C CNN
+F 3 "~" H 3600 3450 50  0001 C CNN
+F 4 "C8545" H 3600 3450 50  0001 C CNN "LCSC"
+	1    3600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5FE50F14
+P 3600 2950
+AR Path="/5FE50F14" Ref="Q?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F14" Ref="Q?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F14" Ref="Q?"  Part="1" 
+AR Path="/5FE7758E/5FE50F14" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3500 2850 50  0000 L CNN
+F 1 "pfet" H 3800 2900 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 3050 50  0001 C CNN
+F 3 "~" H 3600 2950 50  0001 C CNN
+F 4 "C8492" H 3600 2950 50  0001 C CNN "LCSC"
+	1    3600 2950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50F1B
+P 3850 3250
+AR Path="/5FE50F1B" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F1B" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F1B" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50F1B" Ref="R?"  Part="1" 
+F 0 "R?" V 3950 3300 50  0000 C CNN
+F 1 "47" V 3850 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3780 3250 50  0001 C CNN
+F 3 "~" H 3850 3250 50  0001 C CNN
+F 4 "C17714" V 3850 3250 50  0001 C CNN "LCSC"
+	1    3850 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50F22
+P 3850 3150
+AR Path="/5FE50F22" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F22" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F22" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50F22" Ref="R?"  Part="1" 
+F 0 "R?" V 3750 3150 50  0000 C CNN
+F 1 "47" V 3850 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3780 3150 50  0001 C CNN
+F 3 "~" H 3850 3150 50  0001 C CNN
+F 4 "C17714" V 3850 3150 50  0001 C CNN "LCSC"
+	1    3850 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 1950 4500 1950
+Wire Wire Line
+	4500 1950 4500 2000
+Wire Wire Line
+	4000 3150 4000 3250
+Connection ~ 4000 3250
+Wire Wire Line
+	4500 3050 4300 3050
+Wire Wire Line
+	4300 2350 4500 2350
+Wire Wire Line
+	4500 2350 4500 2300
+Connection ~ 4300 2350
+Wire Wire Line
+	4500 3100 4500 3050
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FE50F32
+P 4500 3250
+AR Path="/5FE50F32" Ref="D?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F32" Ref="D?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F32" Ref="D?"  Part="1" 
+AR Path="/5FE7758E/5FE50F32" Ref="D?"  Part="1" 
+F 0 "D?" V 4300 3300 50  0000 L CNN
+F 1 "D_Schottky" V 4545 3329 50  0001 L CNN
+F 2 "footprints:DO-214AB" H 4500 3250 50  0001 C CNN
+F 3 "~" H 4500 3250 50  0001 C CNN
+F 4 "C35722" V 4500 3250 50  0001 C CNN "LCSC"
+	1    4500 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3450 4500 3450
+Wire Wire Line
+	4500 3450 4500 3400
+$Comp
+L Device:R R?
+U 1 1 5FE50F3B
+P 4300 3600
+AR Path="/5FE50F3B" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F3B" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F3B" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50F3B" Ref="R?"  Part="1" 
+F 0 "R?" H 4150 3600 50  0000 L CNN
+F 1 ".002" V 4300 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 4230 3600 50  0001 C CNN
+F 3 "~" H 4300 3600 50  0001 C CNN
+F 4 "C76234" H 4300 3600 50  0001 C CNN "LCSC"
+	1    4300 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 3450
+$Comp
+L Device:R R?
+U 1 1 5FE50F43
+P 4300 1800
+AR Path="/5FE50F43" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F43" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F43" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50F43" Ref="R?"  Part="1" 
+F 0 "R?" H 4150 1800 50  0000 L CNN
+F 1 ".002" V 4300 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 4230 1800 50  0001 C CNN
+F 3 "~" H 4300 1800 50  0001 C CNN
+F 4 "C76234" H 4300 1800 50  0001 C CNN "LCSC"
+	1    4300 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 1950
+Wire Wire Line
+	4300 1650 4300 1550
+Connection ~ 4300 1550
+$Comp
+L power:VCC #PWR?
+U 1 1 5FE50F4C
+P 3700 2750
+AR Path="/5FE50F4C" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F4C" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F4C" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50F4C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3700 2600 50  0001 C CNN
+F 1 "VCC" H 3550 2750 50  0000 C CNN
+F 2 "" H 3700 2750 50  0001 C CNN
+F 3 "" H 3700 2750 50  0001 C CNN
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3050 4300 2550
+Connection ~ 4300 3050
+Connection ~ 4300 2550
+$Comp
+L Comparator:LM393 U?
+U 1 1 5FE50F55
+P 5750 1800
+AR Path="/5FE50F55" Ref="U?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F55" Ref="U?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F55" Ref="U?"  Part="1" 
+AR Path="/5FE7758E/5FE50F55" Ref="U?"  Part="1" 
+F 0 "U?" H 5700 1750 50  0000 C CNN
+F 1 "LM393" H 5700 1850 50  0000 C CNN
+F 2 "" H 5750 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 5750 1800 50  0001 C CNN
+	1    5750 1800
+	1    0    0    1   
+$EndComp
+$Comp
+L Comparator:LM393 U?
+U 2 1 5FE50F5B
+P 5750 3600
+AR Path="/5FE50F5B" Ref="U?"  Part="2" 
+AR Path="/5FE41D7E/5FE50F5B" Ref="U?"  Part="2" 
+AR Path="/5FE6DC1F/5FE50F5B" Ref="U?"  Part="2" 
+AR Path="/5FE7758E/5FE50F5B" Ref="U?"  Part="2" 
+F 0 "U?" H 5700 3650 50  0000 C CNN
+F 1 "LM393" H 5700 3550 50  0000 C CNN
+F 2 "" H 5750 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 5750 3600 50  0001 C CNN
+	2    5750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM393 U?
+U 3 1 5FE50F61
+P 5900 2700
+AR Path="/5FE50F61" Ref="U?"  Part="3" 
+AR Path="/5FE41D7E/5FE50F61" Ref="U?"  Part="3" 
+AR Path="/5FE6DC1F/5FE50F61" Ref="U?"  Part="3" 
+AR Path="/5FE7758E/5FE50F61" Ref="U?"  Part="3" 
+F 0 "U?" H 5858 2746 50  0000 L CNN
+F 1 "LM393" H 5858 2655 50  0000 L CNN
+F 2 "" H 5900 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 5900 2700 50  0001 C CNN
+	3    5900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FE50F68
+P 5450 2700
+AR Path="/5FE50F68" Ref="C?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F68" Ref="C?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F68" Ref="C?"  Part="1" 
+AR Path="/5FE7758E/5FE50F68" Ref="C?"  Part="1" 
+F 0 "C?" H 5565 2746 50  0000 L CNN
+F 1 ".1uF" H 5565 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5488 2550 50  0001 C CNN
+F 3 "~" H 5450 2700 50  0001 C CNN
+F 4 "C49678" H 5450 2700 50  0001 C CNN "LCSC"
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3000 5450 3000
+Wire Wire Line
+	5450 3000 5450 2850
+Wire Wire Line
+	5450 2550 5450 2400
+Wire Wire Line
+	5450 2400 5800 2400
+$Comp
+L pypilot_components:INA180 U?
+U 1 1 5FE50F72
+P 4600 1750
+AR Path="/5FE50F72" Ref="U?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F72" Ref="U?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F72" Ref="U?"  Part="1" 
+AR Path="/5FE7758E/5FE50F72" Ref="U?"  Part="1" 
+F 0 "U?" V 4653 2138 60  0000 L CNN
+F 1 "INA180" V 4547 2138 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4550 2100 60  0001 C CNN
+F 3 "" H 4600 1750 60  0000 C CNN
+	1    4600 1750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4600 1950 4500 1950
+Connection ~ 4500 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5FE50F7A
+P 4800 2100
+AR Path="/5FE50F7A" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F7A" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F7A" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50F7A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 1850 50  0001 C CNN
+F 1 "GND" H 4805 1927 50  0001 C CNN
+F 2 "" H 4800 2100 50  0001 C CNN
+F 3 "" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1950 4600 2100
+Wire Wire Line
+	4600 2100 4700 2100
+Wire Wire Line
+	4700 1400 4600 1400
+Wire Wire Line
+	4600 1400 4600 1650
+Wire Wire Line
+	4600 1650 4300 1650
+Connection ~ 4300 1650
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE50F86
+P 4900 1400
+AR Path="/5FE50F86" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F86" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F86" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50F86" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 1250 50  0001 C CNN
+F 1 "+5V" H 4915 1573 50  0000 C CNN
+F 2 "" H 4900 1400 50  0001 C CNN
+F 3 "" H 4900 1400 50  0001 C CNN
+	1    4900 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5450 1700 0    50   Input ~ 0
+THRESH
+$Comp
+L Device:R R?
+U 1 1 5FE50F8E
+P 5850 2100
+AR Path="/5FE50F8E" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F8E" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F8E" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50F8E" Ref="R?"  Part="1" 
+F 0 "R?" V 5750 2050 50  0000 L CNN
+F 1 "200k" V 5850 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5780 2100 50  0001 C CNN
+F 3 "~" H 5850 2100 50  0001 C CNN
+F 4 "C17539" H 5850 2100 50  0001 C CNN "LCSC"
+	1    5850 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50F95
+P 5300 2100
+AR Path="/5FE50F95" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50F95" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50F95" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50F95" Ref="R?"  Part="1" 
+F 0 "R?" V 5200 2050 50  0000 L CNN
+F 1 "1k" V 5300 2050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5230 2100 50  0001 C CNN
+F 3 "~" H 5300 2100 50  0001 C CNN
+F 4 "C17513" H 5300 2100 50  0001 C CNN "LCSC"
+	1    5300 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 2100 5450 2100
+Wire Wire Line
+	5450 2100 5450 1900
+Connection ~ 5450 2100
+Wire Wire Line
+	4900 2100 5150 2100
+Wire Wire Line
+	6000 2100 6050 2100
+Wire Wire Line
+	6050 2100 6050 1800
+$Comp
+L Device:R R?
+U 1 1 5FE50FA2
+P 6050 1650
+AR Path="/5FE50FA2" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FA2" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FA2" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50FA2" Ref="R?"  Part="1" 
+F 0 "R?" H 5900 1800 50  0000 L CNN
+F 1 "10k" V 6050 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5980 1650 50  0001 C CNN
+F 3 "~" H 6050 1650 50  0001 C CNN
+F 4 "C17414" H 6050 1650 50  0001 C CNN "LCSC"
+	1    6050 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 1800
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE50FA9
+P 6050 1500
+AR Path="/5FE50FA9" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FA9" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FA9" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50FA9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6050 1350 50  0001 C CNN
+F 1 "+5V" H 6065 1673 50  0000 C CNN
+F 2 "" H 6050 1500 50  0001 C CNN
+F 3 "" H 6050 1500 50  0001 C CNN
+	1    6050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pypilot_components:INA180 U?
+U 1 1 5FE50FAF
+P 4600 3550
+AR Path="/5FE50FAF" Ref="U?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FAF" Ref="U?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FAF" Ref="U?"  Part="1" 
+AR Path="/5FE7758E/5FE50FAF" Ref="U?"  Part="1" 
+F 0 "U?" V 4653 3938 60  0000 L CNN
+F 1 "INA180" V 4547 3938 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4550 3900 60  0001 C CNN
+F 3 "" H 4600 3550 60  0000 C CNN
+	1    4600 3550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4600 3750 4300 3750
+Wire Wire Line
+	4600 3750 4600 3900
+Wire Wire Line
+	4600 3900 4700 3900
+Wire Wire Line
+	4700 3200 4600 3200
+Wire Wire Line
+	4600 3200 4600 3450
+Wire Wire Line
+	4600 3450 4500 3450
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE50FBB
+P 4900 3200
+AR Path="/5FE50FBB" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FBB" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FBB" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50FBB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 3050 50  0001 C CNN
+F 1 "+5V" H 4915 3373 50  0000 C CNN
+F 2 "" H 4900 3200 50  0001 C CNN
+F 3 "" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5450 3500 0    50   Input ~ 0
+THRESH
+$Comp
+L Device:R R?
+U 1 1 5FE50FC3
+P 5850 3900
+AR Path="/5FE50FC3" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FC3" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FC3" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50FC3" Ref="R?"  Part="1" 
+F 0 "R?" V 5750 3850 50  0000 L CNN
+F 1 "200k" V 5850 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5780 3900 50  0001 C CNN
+F 3 "~" H 5850 3900 50  0001 C CNN
+F 4 "C17539" H 5850 3900 50  0001 C CNN "LCSC"
+	1    5850 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50FCA
+P 5300 3900
+AR Path="/5FE50FCA" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FCA" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FCA" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50FCA" Ref="R?"  Part="1" 
+F 0 "R?" V 5200 3850 50  0000 L CNN
+F 1 "1k" V 5300 3850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5230 3900 50  0001 C CNN
+F 3 "~" H 5300 3900 50  0001 C CNN
+F 4 "C17513" H 5300 3900 50  0001 C CNN "LCSC"
+	1    5300 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3900 5450 3900
+Wire Wire Line
+	5450 3900 5450 3700
+Connection ~ 5450 3900
+Wire Wire Line
+	4900 3900 5150 3900
+Wire Wire Line
+	6000 3900 6050 3900
+Wire Wire Line
+	6050 3900 6050 3600
+$Comp
+L Device:R R?
+U 1 1 5FE50FD7
+P 6050 3450
+AR Path="/5FE50FD7" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FD7" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FD7" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50FD7" Ref="R?"  Part="1" 
+F 0 "R?" H 5900 3600 50  0000 L CNN
+F 1 "10k" V 6050 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5980 3450 50  0001 C CNN
+F 3 "~" H 6050 3450 50  0001 C CNN
+F 4 "C17414" H 6050 3450 50  0001 C CNN "LCSC"
+	1    6050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE50FDD
+P 6050 3300
+AR Path="/5FE50FDD" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FDD" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FDD" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50FDD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6050 3150 50  0001 C CNN
+F 1 "+5V" H 6065 3473 50  0000 C CNN
+F 2 "" H 6050 3300 50  0001 C CNN
+F 3 "" H 6050 3300 50  0001 C CNN
+	1    6050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE50FE3
+P 4300 3850
+AR Path="/5FE50FE3" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FE3" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FE3" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE50FE3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4300 3600 50  0001 C CNN
+F 1 "GND" H 4305 3677 50  0001 C CNN
+F 2 "" H 4300 3850 50  0001 C CNN
+F 3 "" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3850 4300 3750
+Connection ~ 4300 3750
+Wire Wire Line
+	4800 3900 4800 4050
+Wire Wire Line
+	4800 4050 4100 4050
+Wire Wire Line
+	4100 4050 4100 3450
+Wire Wire Line
+	4100 3450 4300 3450
+Connection ~ 6050 3600
+$Comp
+L Device:R R?
+U 1 1 5FE50FF1
+P 2500 2500
+AR Path="/5FE50FF1" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FF1" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FF1" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50FF1" Ref="R?"  Part="1" 
+F 0 "R?" V 2400 2500 50  0000 C CNN
+F 1 "47k" V 2500 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 2500 50  0001 C CNN
+F 3 "~" H 2500 2500 50  0001 C CNN
+F 4 "C17713" V 2500 2500 50  0001 C CNN "LCSC"
+	1    2500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50FF8
+P 2250 3450
+AR Path="/5FE50FF8" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FF8" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FF8" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50FF8" Ref="R?"  Part="1" 
+F 0 "R?" V 2150 3450 50  0000 C CNN
+F 1 "47k" V 2250 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2180 3450 50  0001 C CNN
+F 3 "~" H 2250 3450 50  0001 C CNN
+F 4 "C17713" V 2250 3450 50  0001 C CNN "LCSC"
+	1    2250 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FE50FFF
+P 2200 2500
+AR Path="/5FE50FFF" Ref="R?"  Part="1" 
+AR Path="/5FE41D7E/5FE50FFF" Ref="R?"  Part="1" 
+AR Path="/5FE6DC1F/5FE50FFF" Ref="R?"  Part="1" 
+AR Path="/5FE7758E/5FE50FFF" Ref="R?"  Part="1" 
+F 0 "R?" V 2100 2500 50  0000 C CNN
+F 1 "47k" V 2200 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2130 2500 50  0001 C CNN
+F 3 "~" H 2200 2500 50  0001 C CNN
+F 4 "C17713" V 2200 2500 50  0001 C CNN "LCSC"
+	1    2200 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 2500 2050 1100
+Wire Wire Line
+	2050 1100 6300 1100
+Wire Wire Line
+	6300 1100 6300 2100
+Wire Wire Line
+	6300 2100 6050 2100
+Connection ~ 6050 2100
+Wire Wire Line
+	2100 3450 2100 4100
+Wire Wire Line
+	2100 4100 6050 4100
+Wire Wire Line
+	6050 4100 6050 3900
+Connection ~ 6050 3900
+Connection ~ 4500 3450
+Text HLabel 2350 2600 0    50   Input ~ 0
+HIGH
+Wire Wire Line
+	2350 2500 2350 2600
+Connection ~ 2350 2500
+Text HLabel 2400 3550 0    50   Input ~ 0
+LOW
+Wire Wire Line
+	2400 3550 2400 3450
+Connection ~ 2400 3450
+Text HLabel 4300 2750 0    50   Input ~ 0
+PHASE
+$Comp
+L Device:C C?
+U 1 1 5FE8A29D
+P 2200 3000
+F 0 "C?" H 2315 3046 50  0000 L CNN
+F 1 "1uF" H 2315 2955 50  0000 L CNN
+F 2 "" H 2238 2850 50  0001 C CNN
+F 3 "~" H 2200 3000 50  0001 C CNN
+	1    2200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE8B869
+P 2200 3150
+AR Path="/5FE8B869" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE8B869" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE8B869" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE8B869" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 2900 50  0001 C CNN
+F 1 "GND" H 2205 2977 50  0001 C CNN
+F 2 "" H 2200 3150 50  0001 C CNN
+F 3 "" H 2200 3150 50  0001 C CNN
+	1    2200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FE8BCEA
+P 2200 2850
+AR Path="/5FE8BCEA" Ref="#PWR?"  Part="1" 
+AR Path="/5FE41D7E/5FE8BCEA" Ref="#PWR?"  Part="1" 
+AR Path="/5FE6DC1F/5FE8BCEA" Ref="#PWR?"  Part="1" 
+AR Path="/5FE7758E/5FE8BCEA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2200 2700 50  0001 C CNN
+F 1 "VCC" H 2050 2850 50  0000 C CNN
+F 2 "" H 2200 2850 50  0001 C CNN
+F 3 "" H 2200 2850 50  0001 C CNN
+	1    2200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1650 3700 1650
+$EndSCHEMATC
