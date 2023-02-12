@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMV7271
+D Single, 1.8V Low Power, Rail-to-Rail Input, Push-Pull Output Comparator, SOT-23-5/SC-70-5
+K single comparator rail-to-rail
+F http://www.ti.com/lit/ds/symlink/lmv7271.pdf
+$ENDCMP
+#
+$CMP LMV7275
+D Single, 1.8V Low Power, Rail-to-Rail Input, Open Collector Output Comparator, SOT-23-5/SC-70-5
+K single comparator rail-to-rail
+F http://www.ti.com/lit/ds/symlink/lmv7275.pdf
+$ENDCMP
+#
+$CMP TL331
+D Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5
+K single comparator
+F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$ENDCMP
+#
+#End Doc Library
