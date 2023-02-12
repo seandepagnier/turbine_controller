@@ -284,7 +284,7 @@ F 3 "" H 4650 3800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wind_components:TL331 UA?
+L turbine_components:TL331 UA?
 U 1 1 6480480D
 P 5350 3600
 AR Path="/5FF9492A/6480480D" Ref="UA?"  Part="1" 
@@ -405,7 +405,7 @@ F 4 "C8062" V 1200 1800 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L wind_components:TL331 UA?
+L turbine_components:TL331 UA?
 U 1 1 64804855
 P 2100 1750
 AR Path="/5FF9492A/64804855" Ref="UA?"  Part="1" 
@@ -568,7 +568,7 @@ F 3 "" H 950 3950 50  0001 C CNN
 $EndComp
 Connection ~ 950  3950
 $Comp
-L wind_components:TL331 UA?
+L turbine_components:TL331 UA?
 U 1 1 648048CB
 P 4900 1800
 AR Path="/5FF9492A/648048CB" Ref="UA?"  Part="1" 
@@ -849,7 +849,7 @@ F 3 "" H 4650 5200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wind_components:TL331 UA?
+L turbine_components:TL331 UA?
 U 1 1 64804995
 P 5350 5000
 AR Path="/5FF9492A/64804995" Ref="UA?"  Part="1" 

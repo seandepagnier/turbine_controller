@@ -5,7 +5,7 @@
 # upload: make upload
 # serial monitor: make serial
 
-SKETCHNAME = wind_controller
+SKETCHNAME = turbine_controller
 DEVICE = /dev/ttyUSB0
 #DEVICE = /dev/ttyAMA0
 
