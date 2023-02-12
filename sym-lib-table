@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name pypilot_components)(type Legacy)(uri /home/sean/schematics/libraries/pypilot_components.lib)(options "")(descr ""))
+  (lib (name wind_components)(type Legacy)(uri ${KIPRJMOD}/wind_components.lib)(options "")(descr ""))
+)
